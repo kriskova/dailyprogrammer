@@ -31,4 +31,3 @@ class Avatar
   end
 end
 
-["Sarlik","Sarlek","Sarlak","kriskova"].each {|user| Avatar.new(user)}
