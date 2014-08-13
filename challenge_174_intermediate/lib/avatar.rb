@@ -1,5 +1,3 @@
-require 'chunky_png'
-
 class Avatar
   require 'digest'
   require 'chunky_png'
