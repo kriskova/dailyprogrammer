@@ -7,10 +7,6 @@ class LongestWord
 
   private
 
-  def self.characters_count(char_array)
-    char_array.inject(Hash.new(0)){|hash, char| hash[char] += 1; hash}
-  end
-
   def self.characters_match?(word)
     word.chars.all? {|char| @chars.count(char) >= word.count(char)}
   end
